@@ -22,7 +22,6 @@ repository               : "ccervellera.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  logo             : "images/ur - Copy.jpeg" 
   name             : "Christian Cervellera"
   pronouns         : "he/him" 
   bio              : "Born and raised in Salento, currently elsewhere"
@@ -76,6 +75,7 @@ author:
 
 
 # Site Settings
+logo             : "images/ur - Copy.jpeg" 
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -122,7 +122,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : #&twitter
 facebook:
   username               :
   app_id                 :
@@ -218,23 +218,23 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true
   # _teaching
   - scope:
       path: ""
