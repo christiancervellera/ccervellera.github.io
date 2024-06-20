@@ -207,10 +207,10 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  #talks:
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # #talks:
   #  output: true
   #  permalink: /:collection/:path/
 
@@ -254,15 +254,15 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
+  # # _talks
   #  - scope:
   #     path: ""
   #     type: talks
