@@ -21,10 +21,10 @@ repository               : "ccervellera.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "Christian Cervellera"
   pronouns         : "he/him" 
-  bio              : "Interested in applied and/or historical political economy"
+  bio              : "Born and raised in Salento, currently elsewhere"
   location         : "London, UK"
   employer         : "LSE"
   uri              : # URL
